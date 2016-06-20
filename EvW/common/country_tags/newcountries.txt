@@ -1,0 +1,2 @@
+INO	= "countries/Indonesia.txt"
+VIE = "countries/Vietnam.txt"
