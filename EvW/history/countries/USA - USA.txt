@@ -102,7 +102,6 @@ add_to_faction = POR
 add_to_faction = NOR
 add_to_faction = HOL
 add_to_faction = ITA
-add_to_faction = GRE
 add_to_faction = WGR
 add_to_faction = CAN
 add_to_faction = AST
@@ -110,7 +109,6 @@ add_to_faction = NZL
 add_to_faction = SAF
 add_to_faction = DEN
 add_to_faction = JAP
-add_to_faction = TUR
 
 create_country_leader = {
 	name = "Harry S. Truman"
