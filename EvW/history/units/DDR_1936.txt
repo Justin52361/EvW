@@ -1,0 +1,127 @@
+
+division_template = {
+	name = "Infantry Division"		
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Cavalry Division"		
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name= "Motorised Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+units = {
+	######## LAND OOB ########
+	##### East German Army #####
+	division = {
+		name = "1st Division"
+		location = 3500
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "2nd Division"
+		location = 482
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "3rd Division"
+		location = 3499
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "4th Division"
+		location = 9238
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "6th Division"
+		location = 11305
+		division_template = "Motorised Division"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "7th Division"
+		location = 11468
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+		division = {
+		name = "8th Division"
+		location = 3522
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+		division = {
+		name = "9th Division"
+		location = 9294
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+		division = {
+		name = "10th Division"
+		location = 9294
+		division_template = "Motorised Division"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+		division = {
+		name = "11th Division"
+		location = 11305
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
