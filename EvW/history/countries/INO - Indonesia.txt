@@ -30,15 +30,15 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 75
+			popularity = 25
 		}
 		
 		neutrality = { 
-			popularity = 0
+			popularity = 50
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
@@ -72,6 +72,16 @@ create_country_leader = {
 	picture = "Portrait_TOBEFILLED.dds"
 	expire = "1965.1.1"
 	ideology = socialism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Sukarno"
+	desc = "POLITICS_TOBEFILLED_DESC"
+	picture = "Sukarno.dds"
+	expire = "1965.1.1"
+	ideology = despotism
 	traits = {
 		#
 	}
