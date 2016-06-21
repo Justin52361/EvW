@@ -45,7 +45,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Sukarno"
+	name = "TOBEFILLED"
 	desc = "POLITICS_SUKARNO_DESC"
 	picture = "Portrait_SUKARNO.dds"
 	expire = "1965.1.1"
