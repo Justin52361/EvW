@@ -6,7 +6,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = FIN
+		owner = SOV
 		buildings = {
 			infrastructure = 3
 			9140 = {
