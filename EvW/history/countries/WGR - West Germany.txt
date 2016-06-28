@@ -1,4 +1,4 @@
-﻿capital = 64
+capital = 52
 oob = "WGR_1936"
 
 
